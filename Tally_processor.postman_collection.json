@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "9e3b3ff4-48b2-40ca-9a83-2a075ed4bfb9",
+		"name": "Tally_processor",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33983888"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/api/process-tally/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/Megha.Shinde/Downloads/Input.xml"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/process-tally/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"process-tally",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
